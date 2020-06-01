@@ -1,5 +1,5 @@
 /**
- * HomePage reducer
+ * ListContainer reducer
  *
  * The reducer takes care of our data. Using actions, we can
  * update our application state. To add a new action,
@@ -20,7 +20,7 @@ export const initialState = {
 };
 
 /* eslint-disable default-case, no-param-reassign */
-const homepageReducer = (state = initialState, action) =>
+const listContainerReducer = (state = initialState, action) =>
   produce(state, draft => {
     switch (action.type) {
       case LOAD_FOOD_ITEM:
@@ -41,4 +41,4 @@ const homepageReducer = (state = initialState, action) =>
     }
   });
 
-export default homepageReducer;
+export default listContainerReducer;

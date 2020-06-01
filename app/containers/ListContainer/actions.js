@@ -1,5 +1,5 @@
 /**
- * HomePage actions
+ * ListContainer actions
  */
 
 import {

@@ -1,5 +1,5 @@
 /**
- * HomePage container constants.
+ * ListContainer constants.
  * Each action has a corresponding type, which the reducer knows and picks up on.
  */
 
